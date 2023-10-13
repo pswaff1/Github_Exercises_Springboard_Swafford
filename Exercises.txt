@@ -1,8 +1,33 @@
 Part 1
 -------------------------------------------------
 
-1. Create a local repo, add ancd commit some files
-git init
-touch Exercises.txt
-git add Exercises.txt
-git commit -m "Added Exercises.txt"
+1.  Create a local repo, add ancd commit some files
+
+    git init
+    touch Exercises.txt
+    git add Exercises.txt
+    git commit -m "Added Exercises.txt"
+
+2.  Create a remote repo and push your code from the local repo
+    to the remote repo.
+
+    Navigated to https://www.github.com/new
+    Entered "Github_Exercises_Springboard_Swafford" as repo name.
+    Entered "Basic Github practice for Springboard Software
+      Development Bootcamp"
+    Chose public repo
+    Submitted form.
+    In command line,
+      "git remote add origin https://github.com/pswaff1/Github_Exercises_Springboard_Swafford.git"
+    In command line,
+      "git push -u origin master"
+
+3.  Create a local branch, then add and commit some files
+
+    git checkout -b local_branch
+    touch some_files
+    git add some_files
+    git commit -m "added some_files"
+
+4.  Push that local branch to GitHub to create a remote branch
+    git push origin remote_branch
