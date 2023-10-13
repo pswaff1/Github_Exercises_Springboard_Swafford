@@ -1,0 +1,8 @@
+Part 1
+-------------------------------------------------
+
+1. Create a local repo, add ancd commit some files
+git init
+touch Exercises.txt
+git add Exercises.txt
+git commit -m "Added Exercises.txt"
