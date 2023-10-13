@@ -30,4 +30,25 @@ Part 1
     git commit -m "added some_files"
 
 4.  Push that local branch to GitHub to create a remote branch
+
     git push origin remote_branch
+    
+  
+Part 2
+------------------------------------------------------
+
+1. Deploy memory game to GitHub pages
+
+	On GitHub,
+	Create repo
+	Go to the repo settings > GitHub Pages > source, select master, save
+	
+	In chosen web browser,
+	navigate to https://pswaff1.github.io/memory-game-springboard/ to confirm site is live.
+	
+	On terminal in memory-game folder,
+	git init
+	git add .
+	git commit -m "Added index.html, script.js, style.css"
+	git remote add origin https://github.com/pswaff1/memory-game-springboard.git
+	git push -u origin master	
